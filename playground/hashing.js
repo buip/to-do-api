@@ -11,6 +11,7 @@ console.log(token);
 let decoded = jwt.verify(token, 'abc');
 console.log(decoded);
 
+
 // let message = 'I am user 1';
 // let hash = SHA256(message).toString();
 // console.log(`Message: ${message}`);
